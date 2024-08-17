@@ -1,7 +1,7 @@
 CREATE DATABASE IF NOT EXISTS GBANK_DB;
 CREATE SCHEMA IF NOT EXISTS GBANK_DB.raw_schema;
 CREATE SCHEMA IF NOT EXISTS GBANK_DB.transform_schema;
-CREATE SCHEMA IF NOT EXISTS.GBANK_DB.analytics_schema;
+CREATE SCHEMA IF NOT EXISTS GBANK_DB.analytics_schema;
 CREATE SCHEMA IF NOT EXISTS GBANK_DB.security_schema;
 
 -- Create table for raw transactions data
